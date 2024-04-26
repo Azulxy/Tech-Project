@@ -45,6 +45,7 @@
 }
 
 .fa-gem{
+    color: #ff8177;
     margin-right: 0.5rem;
 }
 
@@ -545,4 +546,38 @@
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+}
+
+.websiteRight{
+    color: #fff;
+}
+
+@media screen and (max-width: 820px) {
+    .footerLinks{
+        padding-top: 2rem;
+    }
+
+    #footerLogo{
+        margin-bottom: 2rem;
+    }
+
+    .websiteRight{
+        margin-bottom: 2rem;
+    }
+
+    .footerLinkWrapper{
+        flex-direction: column;
+    }
+
+    .socialMediaWrap{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .footerLinkItens{
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+    }
 }
